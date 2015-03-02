@@ -1,0 +1,72 @@
+body {
+	margin: 0;
+	background-color: #f2f2f2;
+}
+
+#hero {
+	width: 50%;
+	margin: 1em auto 0 auto;
+	padding: 0.5em 2em 1em 2em;
+	border-left: 1px dashed #bbb;
+	border-right: 1px dashed #bbb;
+
+}
+
+h1 {
+	font-size: 5em;
+	font-family: "Oswald";
+	margin: 0;
+	text-align: center;
+}
+
+h2 {
+	padding-bottom: 1em;
+}
+
+.text {
+	margin: .75em auto .75em auto;
+	font-family: "Georgia";
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+#phone-box {
+	width: 90%;
+	padding-top: 2em;
+	margin: 0 auto 0 auto;
+}
+
+.phone {
+	float: left;
+	width: 28%;
+	margin: 0 0.5em 2em 0.5em;
+	padding: 0 1em 1em 1em;
+	border: 1px dashed #bbb;
+	min-height: 26.5em;
+}
+
+.phone img{
+	display: block;
+	width: 100%;
+	padding: 0.6em 0 0.6em 0;
+/*	background: url(img/background2.png) no-repeat ;*/
+}
+
+.turn{
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+
+.caption {
+	font-family: "Georgia";
+	font-size: 0.8em;
+	line-height: 1.4em;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.quote{
+	color: #bbb;
+}
